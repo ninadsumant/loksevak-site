@@ -182,7 +182,7 @@
     var reveal = function (k) {
       $$('.opt', box).forEach(function (b, j) { b.disabled = true; if (j === q.answer) b.classList.add('ok'); else if (j === k) b.classList.add('bad'); });
       var ok = k === q.answer;
-      after.innerHTML = '<div class="res ' + (ok ? 'ok' : 'bad') + '">' + esc(ok ? T.correct : T.wrong) + '</div><div class="expl"><b>' + esc(T.explain) + '</b>' + esc(q.explanation) + '</div><div class="qact"><a class="btn-green" target="_blank" rel="noopener" href="https://wa.me/?text=' + encodeURIComponent(T.share_text + ' ' + location.href) + '">' + esc(T.share) + '</a></div><p class="note">' + esc(T.answered) + '</p>';
+      after.innerHTML = '<div class="res ' + (ok ? 'ok' : 'bad') + '">' + esc(ok ? T.correct : T.wrong) + '</div>' + (ok || !T.right ? '' : '<div class="right">' + esc(T.right) + ': ' + letters[q.answer] + '. ' + esc(q.options[q.answer]) + '</div>') + '<div class="expl"><b>' + esc(T.explain) + '</b>' + esc(q.explanation) + '</div><div class="qact"><a class="btn-green" target="_blank" rel="noopener" href="https://wa.me/?text=' + encodeURIComponent(T.share_text + ' ' + location.href) + '">' + esc(T.share) + '</a></div><p class="note">' + esc(T.answered) + '</p>';
     };
     if (st.day === todayKey && typeof st.pick === 'number') reveal(st.pick);
     $$('.opt', box).forEach(function (b) {

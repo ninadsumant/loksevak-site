@@ -10,6 +10,7 @@
 - Prelims: Sunday 24 January 2027, offline OMR, 100 questions, 100 marks, 60 minutes, one quarter mark deducted per wrong answer, screening only
 - Upper age limit relaxed by one year this year; Mains dates announced later by cadre
 - Estimated competition: 15 lakh+ candidates (an estimate, not an official figure)
+- Every figure above was checked row by row against the corrigendum PDF on 11 November 2026; the Commission's official publication has the final word
 
 ## Pages
 
@@ -30,8 +31,8 @@
 - [Staff Nurse recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/staff-nurse/): Medical Education and Drugs Department: 3,911 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/staff-nurse/
 - [Tax Assistant recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/tax-assistant/): Finance Department, Group C: 282 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/tax-assistant/
 - [AMVI recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/amvi/): Home Department (Transport), Group C: 461 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/amvi/
-- [Craft Instructor recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/craft-instructor/): Government ITIs, Skills Department: 1,388 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/craft-instructor/
-- [Assistant Agriculture Officer recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/assistant-agriculture-officer/): Agriculture Department, Group C: 1,203 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/assistant-agriculture-officer/
+- [Craft Instructor recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/craft-instructor/): Skills, Employment, Entrepreneurship and Innovation Department: 1,388 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/craft-instructor/
+- [Assistant Agriculture Officer recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/assistant-agriculture-officer/): Under the divisional joint directors of agriculture: 1,203 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/assistant-agriculture-officer/
 - [Civil Engineering Assistant recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/civil-engineering-assistant/): Public Works 934 + Water Resources 949 = 1,883 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/civil-engineering-assistant/
 
 ## Live test schedule (every Sunday, 11:00 AM IST, online in the app)
