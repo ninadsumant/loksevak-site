@@ -53,13 +53,13 @@
 - One live test: INR 99
 - Live test series (10 Sundays to the exam): INR 499
 - Super Pack: ₹4,999 per year, includes the series and the offline sessions; seats limited
-- Refunds: full refund if cancelled before the test starts; the series is refundable until its first test
+- Refunds: none; every payment is final (a missed test is not refunded; a duplicate charge for the same purchase is reversed as a payment error)
 
 ## Policies
 
 - Privacy: https://ninadsumant.github.io/loksevak-site/en/privacy/
 - Terms: https://ninadsumant.github.io/loksevak-site/en/terms/
-- Refunds: https://ninadsumant.github.io/loksevak-site/en/refund/
+- Refund policy (no refunds): https://ninadsumant.github.io/loksevak-site/en/refund/
 - Account deletion: https://ninadsumant.github.io/loksevak-site/en/delete-account/
 
 Contact: support@loksevak.ai. Web app: https://app.loksevak.ai
