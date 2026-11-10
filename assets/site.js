@@ -154,12 +154,13 @@
   // Group C vacancy table: filter by post or department
   var vf = $('#vac-filter');
   if (vf) {
-    var vrows = $$('#vac tbody tr'), nomatch = $('.no-match'), tfoot = $('#vac tfoot');
+    var vrows = $$('#vac tbody tr, #vcards .vcard:not(.vtotal)'), nomatch = $('.no-match'), tfoot = $('#vac tfoot'), vtotal = $('#vcards .vtotal');
     vf.addEventListener('input', function () {
       var q = vf.value.trim().toLowerCase(), n = 0;
       vrows.forEach(function (r) { var ok = !q || (r.getAttribute('data-q') || '').indexOf(q) !== -1 || r.textContent.toLowerCase().indexOf(q) !== -1; r.hidden = !ok; if (ok) n++; });
       if (nomatch) nomatch.hidden = n > 0;
       if (tfoot) tfoot.hidden = !!q;
+      if (vtotal) vtotal.hidden = !!q;
     });
   }
 

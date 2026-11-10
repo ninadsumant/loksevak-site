@@ -161,7 +161,8 @@ html[lang=mr] .ptext strong{font:400 36px/1.2 var(--serif);letter-spacing:0}
 .compare h2{text-align:center;font:400 28px/36px var(--serif);color:var(--ink2)}
 .compare .coral{display:block;font-size:20px;line-height:26px;color:var(--coral);margin-top:4px}
 .cmp-toggle{display:flex;gap:4px;margin:24px auto 0;background:var(--bg-grey);border:1px solid var(--line2);border-radius:12px;padding:4px;width:max-content;max-width:100%}
-.cmp-toggle button{font:600 14px/20px var(--sans);color:var(--grey);padding:8px 14px;border-radius:9px;min-height:36px}
+.cmp-toggle{flex-wrap:wrap;justify-content:center}
+.cmp-toggle button{font:600 13px/18px var(--sans);color:var(--grey);padding:8px 10px;border-radius:9px;min-height:36px}
 .cmp-toggle button[aria-pressed=true]{background:#fff;color:var(--ink2);box-shadow:0 1px 3px rgba(0,0,0,.1)}
 .cmp-wrap{margin:16px auto 0;max-width:870px}
 .cmp{border-collapse:separate;border-spacing:0;width:100%;table-layout:fixed}
@@ -176,7 +177,7 @@ html[lang=mr] .ptext strong{font:400 36px/1.2 var(--serif);letter-spacing:0}
 .cmp .sub{font:400 13px/18px var(--sans);color:var(--grey);display:block;margin:0 auto}
 .cmp .ok{font:700 13px/18px var(--sans);color:var(--green-d)}
 .cmp .price{font:700 14px/18px var(--sans);color:var(--green-d)}
-.cmp-wrap[data-show=c1] .c2,.cmp-wrap[data-show=c2] .c1{display:none}
+.cmp-wrap[data-show=c1] .c2,.cmp-wrap[data-show=c1] .c3,.cmp-wrap[data-show=c2] .c1,.cmp-wrap[data-show=c2] .c3,.cmp-wrap[data-show=c3] .c1,.cmp-wrap[data-show=c3] .c2{display:none}
 .cmp th.us{background:var(--mint-lt);border:3px solid var(--gcol);border-bottom:0;border-radius:20px 20px 0 0}
 .cmp td.us{background:var(--mint-lt);border-left:3px solid var(--gcol);border-right:3px solid var(--gcol)}
 .cmp tbody tr:last-child td.us{border-bottom:3px solid var(--gcol);border-radius:0 0 20px 20px}
@@ -532,6 +533,56 @@ footer .wrap{max-width:1200px;padding:0}
 .scard .when{display:block;font:700 12px/16px var(--sans);color:var(--purple);text-transform:uppercase;letter-spacing:.06em;margin-top:12px}
 .scard .when + b{margin-top:4px}
 
+/* competition line, live test price line, map credit */
+.compete{display:flex;align-items:flex-start;gap:10px;margin:14px auto 0;max-width:900px;font:600 14px/22px var(--sans);color:var(--ink2);text-align:left;background:#FFF6E1;border:1px solid #F3E2B5;border-radius:12px;padding:10px 14px}
+.cbadge{flex:none;font:700 10px/16px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:#8A5A00;background:#fff;border:1px solid #F3E2B5;border-radius:4px;padding:1px 6px;margin-top:3px}
+.gc-compete{margin-top:16px}
+.lprice{font:600 14px/22px var(--sans);color:var(--ink2);margin-top:10px}
+.lprice a{color:var(--blue-link);white-space:nowrap}
+.mapcredit{font:400 11px/16px var(--sans);color:var(--muted2);text-align:center;margin-top:6px}
+
+/* phone cards for the cadre and exam tables */
+.vcards{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.vcard{background:#fff;border:1px solid var(--line2);border-radius:14px;padding:14px 16px;text-align:left}
+.vcard[hidden]{display:none}
+.vtop{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.vtop b{font:700 16px/22px var(--sans);color:var(--ink2)}
+.vn{flex:none;font:800 16px/22px var(--sans);color:var(--blue);background:#E8EEF9;border-radius:999px;padding:2px 10px}
+.vcard small{display:block;font:400 13px/18px var(--sans);color:var(--muted);margin-top:2px}
+.vdept{font:600 13px/18px var(--sans);color:var(--grey);margin-top:8px}
+.vq{font:400 14px/20px var(--sans);color:var(--grey);margin-top:4px}
+.vtotal{background:var(--bg-grey)}
+.ecards{display:flex;flex-direction:column;gap:10px}
+.ecard{background:#fff;border:1px solid var(--line2);border-radius:14px;padding:14px 16px;text-align:left}
+.ecard b a{color:var(--blue-link)}
+.ecard small{display:block;font:400 13px/18px var(--sans);color:var(--muted);margin-top:2px}
+.ecard .st{margin-top:0}
+.ecard dl{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:10px 0 0}
+.ecard dt{font:600 12px/18px var(--sans);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.ecard dd{margin:0;font:400 14px/18px var(--sans);color:var(--ink2)}
+.ecard.st-soon dd,.ecard.st-soon b{color:var(--muted)}
+.exams .rules-wrap,.gc .rules-wrap{display:none}
+
+/* pricing: live test plans */
+.pricing-head .lead{margin:16px auto 0;max-width:720px}
+.plan h3{color:var(--ink2)}
+.plan .pbul{margin-top:14px;gap:8px}
+.plan .pbul li{font-size:15px;line-height:22px}
+.plan .pbul .mark{width:20px;height:20px}
+.plan .btn.primary{margin-top:18px}
+.plan.best{border:2px solid var(--green);box-shadow:0 12px 30px rgba(22,162,69,.16)}
+.plan.best .ribbon{background:var(--green)}
+.plan.best .btn.primary{background:var(--green)}
+.plan .chip{background:var(--mint-lt);color:var(--green-d)}
+.sched-sec{padding:8px 20px 40px}
+.sched-sec h2{font:400 28px/36px var(--serif);color:var(--ink2);text-align:center}
+.sched{list-style:none;margin:20px auto 0;padding:0;max-width:720px;display:grid;grid-template-columns:1fr;gap:8px}
+.sched li{display:flex;align-items:center;gap:12px;background:var(--bg-grey);border-radius:12px;padding:10px 14px}
+.sched .sn{display:inline-flex;flex:none;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;align-items:center;justify-content:center;font:700 13px var(--sans)}
+.sched b{font:600 15px/20px var(--sans);color:var(--ink2);flex:1}
+.sched time{font:600 14px/20px var(--sans);color:var(--green-d);white-space:nowrap}
+.why{margin-top:20px}
+
 /* motion */
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in{opacity:1;transform:none}
@@ -596,15 +647,15 @@ footer .wrap{max-width:1200px;padding:0}
  .cmp-toggle{display:none}
  .cmp-wrap{margin-top:64px}
  .cmp{table-layout:auto}
- .cmp-wrap[data-show=c1] .c2,.cmp-wrap[data-show=c2] .c1{display:table-cell}
+ .cmp-wrap[data-show=c1] .c2,.cmp-wrap[data-show=c1] .c3,.cmp-wrap[data-show=c2] .c1,.cmp-wrap[data-show=c2] .c3,.cmp-wrap[data-show=c3] .c1,.cmp-wrap[data-show=c3] .c2{display:table-cell}
  .cmp th{font-size:16px;line-height:24px;padding:14px 8px;height:72px}
  .cmp th .ic{width:24px;height:24px;margin-right:6px}
  .cmp td{height:84px;padding:8px 10px;font-size:16px;line-height:24px}
- .cmp td.f,.cmp th.f{width:336px}
+ .cmp td.f,.cmp th.f{width:290px}
  .cmp td.f{font-size:18px;line-height:22px;padding:12px}
  .cmp td.f .ic{display:inline-block;width:24px;height:24px;margin:0 10px 0 0;vertical-align:-6px}
  .cmp .mark{width:28px;height:28px}
- .cmp .sub{font-size:14px;line-height:20px;max-width:140px}
+ .cmp .sub{font-size:13px;line-height:18px;max-width:150px}
  .cmp .ok{font-size:14px;line-height:20px}
  .cmp .price{font-size:16px;line-height:20px}
  .us-h .logo{font-size:18px;gap:8px}.us-h .mark{width:24px;height:24px}
@@ -677,6 +728,14 @@ footer .wrap{max-width:1200px;padding:0}
  .prose-sec{padding-bottom:56px}
  .prose h2{font-size:24px;line-height:32px;margin-top:32px}
  .h-sm{font-size:24px;line-height:32px;margin-top:48px}
+ .exams .rules-wrap,.gc .rules-wrap{display:block}
+ .vcards,.ecards{display:none}
+ .compete{font-size:15px;line-height:24px;margin-top:16px}
+ .plans.two{grid-template-columns:repeat(2,minmax(0,420px))}
+ .plan.best{margin-top:0}
+ .sched{grid-template-columns:1fr 1fr;gap:10px}
+ .sched-sec{padding:16px 20px 56px}
+ .sched-sec h2{font-size:40px;line-height:48px}
  .nav-r .login{display:inline-flex;font-size:16px;line-height:24px}
  .signup{font-size:16px;line-height:24px;padding:8px 18px}
  .tracker{grid-template-columns:repeat(4,1fr);gap:12px;margin-top:40px}
