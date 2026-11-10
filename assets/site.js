@@ -151,6 +151,10 @@
     window.addEventListener('scroll', upd, { passive: true }); upd();
   }
 
+  // timeline: mark the dates that have passed
+  var todayIso = new Date().toISOString().slice(0, 10);
+  $$('[data-when]').forEach(function (el) { var li = el.closest('li'); if (li && el.getAttribute('data-when') < todayIso) li.classList.add('past'); });
+
   // Group C vacancy table: filter by post or department
   var vf = $('#vac-filter');
   if (vf) {

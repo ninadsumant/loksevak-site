@@ -1,0 +1,65 @@
+# Loksevak AI
+
+> Loksevak AI is a private, student-only learning app for the MPSC Group C Services Combined Preliminary Examination 2026 (Maharashtra, India), in Marathi with English available. It is not a coaching class's app and sells no courses. Every study tool is free: diagnostic test, daily study plan, practice scored by the MPSC rule, the cause of each mistake, spaced-repetition flashcards, an AI mentor with sources, notes, atlas and current affairs. The only paid items are the statewide live test every Sunday (INR 99 per test or INR 499 for the series of 10 tests to the exam) and the Super Pack (the series plus offline guidance sessions in Pune, Nashik and Chhatrapati Sambhajinagar with officers who cleared MPSC). After every live test comes a detailed analysis of the mistakes and a week of study planned around the weak topics. Loksevak AI is not connected with the Maharashtra Public Service Commission (MPSC) or the Government of Maharashtra; applications are made only at mpsconline.gov.in.
+
+## Exam facts (source: MPSC corrigendum of 6 November 2026)
+
+- Exam: MPSC Group C Services Combined Preliminary Examination 2026, advertisement 017/2026
+- Posts: 16,717 across 27 cadres (largest: Clerk-Typist 3,966; Staff Nurse 3,911; Talathi 1,840; Craft Instructor 1,388; Assistant Agriculture Officer 1,203; Civil Engineering Assistant 934 + 949)
+- Applications and options: 13 November 2026 to 27 November 2026 at mpsconline.gov.in; fee by 30 November 2026, online only
+- Prelims: Sunday 24 January 2027, offline OMR, 100 questions, 100 marks, 60 minutes, one quarter mark deducted per wrong answer, screening only
+- Upper age limit relaxed by one year this year; Mains dates announced later by cadre
+- Estimated competition: 15 lakh+ candidates (an estimate, not an official figure)
+
+## Pages
+
+- [Home](https://ninadsumant.github.io/loksevak-site/en/): what the app does, the Sunday live test, the Super Pack, FAQ. Marathi: https://ninadsumant.github.io/loksevak-site/
+- [MPSC Group C 2026 guide](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/): posts, dates, eligibility, pattern, syllabus, how to apply, preparation plan. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/
+- [Updates](https://ninadsumant.github.io/loksevak-site/en/updates/): every corrigendum and date in order. Marathi: https://ninadsumant.github.io/loksevak-site/updates/
+- [Pricing](https://ninadsumant.github.io/loksevak-site/en/pricing/): live test prices, the Sunday schedule, what happens after the test, Super Pack. Marathi: https://ninadsumant.github.io/loksevak-site/pricing/
+- [Daily practice question](https://ninadsumant.github.io/loksevak-site/en/daily/): one free MPSC question a day. Marathi: https://ninadsumant.github.io/loksevak-site/daily/
+- [Exams](https://ninadsumant.github.io/loksevak-site/en/exams/): Group C now; other MPSC exams coming. Marathi: https://ninadsumant.github.io/loksevak-site/exams/
+- [About](https://ninadsumant.github.io/loksevak-site/en/about/): . Marathi: https://ninadsumant.github.io/loksevak-site/about/
+- [Help](https://ninadsumant.github.io/loksevak-site/en/help/): . Marathi: https://ninadsumant.github.io/loksevak-site/help/
+- [Delete account](https://ninadsumant.github.io/loksevak-site/en/delete-account/): deletion happens inside the app or the web app. Marathi: https://ninadsumant.github.io/loksevak-site/delete-account/
+
+## Guides by post
+
+- [Talathi recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/talathi/): Village Revenue Officer, Group C: 1,840 posts, through MPSC. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/talathi/
+- [Clerk-Typist recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/clerk-typist/): The largest cadre in Group C: 3,966 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/clerk-typist/
+- [Staff Nurse recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/staff-nurse/): Medical Education and Drugs Department: 3,911 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/staff-nurse/
+- [Tax Assistant recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/tax-assistant/): Finance Department, Group C: 282 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/tax-assistant/
+- [AMVI recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/amvi/): Home Department (Transport), Group C: 461 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/amvi/
+- [Craft Instructor recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/craft-instructor/): Government ITIs, Skills Department: 1,388 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/craft-instructor/
+- [Assistant Agriculture Officer recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/assistant-agriculture-officer/): Agriculture Department, Group C: 1,203 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/assistant-agriculture-officer/
+- [Civil Engineering Assistant recruitment 2026](https://ninadsumant.github.io/loksevak-site/en/mpsc-group-c/civil-engineering-assistant/): Public Works 934 + Water Resources 949 = 1,883 posts. Marathi: https://ninadsumant.github.io/loksevak-site/mpsc-group-c/civil-engineering-assistant/
+
+## Live test schedule (every Sunday, 11:00 AM IST, online in the app)
+
+- Live Test 1: Sunday 15 November 2026, 11:00 AM IST
+- Live Test 2: Sunday 22 November 2026, 11:00 AM IST
+- Live Test 3: Sunday 29 November 2026, 11:00 AM IST
+- Live Test 4: Sunday 06 December 2026, 11:00 AM IST
+- Live Test 5: Sunday 13 December 2026, 11:00 AM IST
+- Live Test 6: Sunday 20 December 2026, 11:00 AM IST
+- Live Test 7: Sunday 27 December 2026, 11:00 AM IST
+- Live Test 8: Sunday 03 January 2027, 11:00 AM IST
+- Live Test 9: Sunday 10 January 2027, 11:00 AM IST
+- Live Test 10: Sunday 17 January 2027, 11:00 AM IST
+
+## Pricing
+
+- Account and every study tool: free, no card
+- One live test: INR 99
+- Live test series (10 Sundays to the exam): INR 499
+- Super Pack: ₹4,999 per year, includes the series and the offline sessions; seats limited
+- Refunds: full refund if cancelled before the test starts; the series is refundable until its first test
+
+## Policies
+
+- Privacy: https://ninadsumant.github.io/loksevak-site/en/privacy/
+- Terms: https://ninadsumant.github.io/loksevak-site/en/terms/
+- Refunds: https://ninadsumant.github.io/loksevak-site/en/refund/
+- Account deletion: https://ninadsumant.github.io/loksevak-site/en/delete-account/
+
+Contact: support@loksevak.ai. Web app: https://app.loksevak.ai
